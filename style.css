@@ -1762,7 +1762,8 @@ body {
 /* line 1, sass/layout/_header.scss */
 .site-header {
   *zoom: 1;
-  z-index: 99; }
+  z-index: 99;
+}
   /* line 4, sass/libs/_mixins.scss */
   .site-header:after {
     content: " ";
@@ -2726,3 +2727,20 @@ body {
         color: #fd5927; }
 
 /*# sourceMappingURL=style.css.map */
+
+.video{
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* border: 8px solid white; */
+}
+
+.video-iframe{
+  position: absolute;
+  height: 100%;
+  width:100%;
+}
+
+.video-container{
+  width: 100%;
+}
